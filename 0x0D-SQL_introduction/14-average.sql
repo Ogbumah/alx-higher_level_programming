@@ -1,2 +1,2 @@
--- finding the score in the second table --
-SELECT AVG(score) as average FROM second_table;[C
+-- calculates the average
+SELECT SUM(score) / COUNT(score) AS average FROM second_table;
